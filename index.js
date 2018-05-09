@@ -48,6 +48,7 @@ if (fs.existsSync(dir)) {
                                         nrc.run(`yarn --cwd ${dir}`).then(function(exitCodes) {
                                             s4.succeed("Modules installed");
                                             console.log("Project initialization complete!");
+                                            console.log(`CD into ${dir} and run \`npm run start\` to start the dev server and \`npm run build\` to build a production version to /dist`)
                                         }).catch(()=>{
                                             s4.text = `Installing node modules using npm(this could take a minute)`;
                                             nrc.run(`npm i --prefix ./${dir}`).then(function(exitCodes) {
