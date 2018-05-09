@@ -1,6 +1,6 @@
 {
   "name": "create-react-parcel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a basic react app using parcel",
   "main": "index.js",
   "scripts": {
