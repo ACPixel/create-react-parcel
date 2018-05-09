@@ -1,0 +1,22 @@
+{
+  "name": "create-react-parcel",
+  "version": "1.0.0",
+  "description": "Create a basic react app using parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ACPixel",
+  "license": "ISC",
+  "dependencies": {
+    "make-dir": "^1.2.0",
+    "minimist": "^1.2.0",
+    "node-run-cmd": "^1.0.1",
+    "npm-programmatic": "^0.0.10",
+    "ora": "^2.1.0",
+    "write-json-file": "^2.3.0"
+  },
+  "bin": {
+    "create-react-parcel": "./index.js"
+  }
+}
